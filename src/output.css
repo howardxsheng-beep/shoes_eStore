@@ -512,6 +512,12 @@
   .bg-\[url\(\'\/img\/banner\.png\'\)\] {
     background-image: url('/img/banner.png');
   }
+  .bg-\[url\(\'https\:\/\/howardxsheng-beep\.github\.io\/shoes_eStore\/img\/banner\.png\'\)\] {
+    background-image: url('https://howardxsheng-beep.github.io/shoes_eStore/img/banner.png');
+  }
+  .bg-\[url\(\'https\:\/\/howardxsheng-beep\.github\.io\/shoes_eStore\/img\/banner\.pngs\'\)\] {
+    background-image: url('https://howardxsheng-beep.github.io/shoes_eStore/img/banner.pngs');
+  }
   .bg-cover {
     background-size: cover;
   }
