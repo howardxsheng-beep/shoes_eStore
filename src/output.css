@@ -503,26 +503,8 @@
   .bg-primary-300 {
     background-color: var(--color-primary-300);
   }
-  .\!bg-\[url\(\'\.\/img\/banner\.png\'\)\] {
-    background-image: url('./img/banner.png') !important;
-  }
-  .\!bg-\[url\(\'\/img\/banner\.png\'\)\] {
-    background-image: url('/img/banner.png') !important;
-  }
-  .bg-\[url\(\'\.\/img\/banner-sm\.png\'\)\] {
-    background-image: url('./img/banner-sm.png');
-  }
-  .bg-\[url\(\'\.\/img\/banner\.png\'\)\] {
-    background-image: url('./img/banner.png');
-  }
   .bg-\[url\(\'\/img\/banner-co-branded-sm\.png\'\)\] {
     background-image: url('/img/banner-co-branded-sm.png');
-  }
-  .bg-\[url\(\'\/img\/banner-co-branded\.png\'\)\] {
-    background-image: url('/img/banner-co-branded.png');
-  }
-  .bg-\[url\(\'\/img\/banner-sm\.png\'\)\] {
-    background-image: url('/img/banner-sm.png');
   }
   .bg-\[url\(\'\/img\/banner\.png\'\)\] {
     background-image: url('/img/banner.png');
@@ -967,24 +949,9 @@
       overflow: visible;
     }
   }
-  .sm\:bg-\[url\(\'\.\/img\/banner-sm\.png\'\)\] {
-    @media (width >= 40rem) {
-      background-image: url('./img/banner-sm.png');
-    }
-  }
-  .sm\:bg-\[url\(\'\/img\/banner-co-branded-sm\.png\'\)\] {
-    @media (width >= 40rem) {
-      background-image: url('/img/banner-co-branded-sm.png');
-    }
-  }
   .sm\:bg-\[url\(\'\/img\/banner-co-branded\.png\'\)\] {
     @media (width >= 40rem) {
       background-image: url('/img/banner-co-branded.png');
-    }
-  }
-  .sm\:bg-\[url\(\'\/img\/banner-sm\.png\'\)\] {
-    @media (width >= 40rem) {
-      background-image: url('/img/banner-sm.png');
     }
   }
   .sm\:bg-\[url\(\'\/img\/banner\.png\'\)\] {
