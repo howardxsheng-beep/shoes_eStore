@@ -512,6 +512,9 @@
   .bg-\[url\(\'\/img\/banner\.png\'\)\] {
     background-image: url('/img/banner.png');
   }
+  .bg-\[url\(\'https\:\/\/howardxsheng-beep\.github\.io\/shoes_eStore\/img\/banner-co-branded-sm\.png\'\)\] {
+    background-image: url('https://howardxsheng-beep.github.io/shoes_eStore/img/banner-co-branded-sm.png');
+  }
   .bg-\[url\(\'https\:\/\/howardxsheng-beep\.github\.io\/shoes_eStore\/img\/banner\.png\'\)\] {
     background-image: url('https://howardxsheng-beep.github.io/shoes_eStore/img/banner.png');
   }
@@ -971,6 +974,16 @@
   .sm\:bg-\[url\(\'\/img\/banner\.png\'\)\] {
     @media (width >= 40rem) {
       background-image: url('/img/banner.png');
+    }
+  }
+  .sm\:bg-\[url\(\'https\:\/\/howardxsheng-beep\.github\.io\/shoes_eStore\/img\/banner-co-branded\.png\'\)\] {
+    @media (width >= 40rem) {
+      background-image: url('https://howardxsheng-beep.github.io/shoes_eStore/img/banner-co-branded.png');
+    }
+  }
+  .sm\:bg-\[url\(\'https\:\/\/howardxsheng-beep\.github\.io\/shoes_eStore\/img\/banner-sm\.png\'\)\] {
+    @media (width >= 40rem) {
+      background-image: url('https://howardxsheng-beep.github.io/shoes_eStore/img/banner-sm.png');
     }
   }
   .sm\:px-0 {
