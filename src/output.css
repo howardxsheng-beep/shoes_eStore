@@ -504,10 +504,10 @@
     background-color: var(--color-primary-300);
   }
   .bg-\[url\(\'\/img\/banner-co-branded-sm\.png\'\)\] {
-    background-image: url('img/banner-co-branded-sm.png');
+    background-image: url('/img/banner-co-branded-sm.png');
   }
   .bg-\[url\(\'\/img\/banner\.png\'\)\] {
-    background-image: url('img/banner.png');
+    background-image: url('/img/banner.png');
   }
   .bg-cover {
     background-size: cover;
@@ -951,12 +951,12 @@
   }
   .sm\:bg-\[url\(\'\/img\/banner-co-branded\.png\'\)\] {
     @media (width >= 40rem) {
-      background-image: url('img/banner-co-branded.png');
+      background-image: url('/img/banner-co-branded.png');
     }
   }
   .sm\:bg-\[url\(\'\/img\/banner\.png\'\)\] {
     @media (width >= 40rem) {
-      background-image: url('img/banner.png');
+      background-image: url('/img/banner.png');
     }
   }
   .sm\:px-0 {
