@@ -1,0 +1,88 @@
+@theme {
+    --font-sans: "Noto Sans TC", "PingFang TC", "Heiti TC", "Microsoft JhengHei", sans-serif;
+    --font-serif: "Libre Baskerville", ui-serif, Georgia, "Times New Roman", serif;
+
+    /* Primary */
+    --color-primary-100: #f5fee7;   
+    --color-primary-200: #e8fec5;
+    --color-primary-300: #C0FA73;
+    --color-primary-400: #57A203;
+    --color-primary-500: #477A11;
+
+    /* Neutral*/
+    --color-neutral-0:   #ffffff;
+    --color-neutral-100: #f8f9fa;
+    --color-neutral-200: #E9ECEF;
+    --color-neutral-300: #DEE2E6;
+    --color-neutral-400: #ced4da;
+    --color-neutral-500: #adb5bd;
+    --color-neutral-600: #6c757d;
+    --color-neutral-700: #495057;
+    --color-neutral-800: #343a40;
+    --color-neutral-900: #212529;
+
+    /* Functional */
+    /* Danger */  
+    --color-danger-100: #fcf1f1;
+    --color-danger-200: #eba7a7;
+    --color-danger-300: #d74f4f;
+    /* Success */
+    --color-success-100: #effbf4;
+    --color-success-200: #9ad1ba;
+    --color-success-300: #36a375;
+    /* Warning */
+    --color-warning-100: #fef6ec;
+    --color-warning-200: #f9c588;
+    --color-warning-300: #f3bb12;
+    /* Info */
+    --color-info-100: #eef5fc;
+    --color-info-200: #97c3ed;
+    --color-info-300: #3087db;
+    /* Text */
+    --color-text-primary:   var(--color-neutral-900);
+    --color-text-secondary: var(--color-neutral-600);
+    --color-text-muted:     var(--color-neutral-500);
+    --color-text-highlight: var(--color-primary-400);
+    --color-text-on-dark:   var(--color-neutral-0);
+
+
+/* ------------ Headings / Display ------------ */
+    /* Display 1 */
+    --text-d1: 64px;
+    --leading-d1: 1.2;     /* 120% */
+    --tracking-d1: 0.05em; /* 5% */
+
+    /* Display 2 */
+    --text-d2: 48px;
+    --leading-d2: 1.2;
+    --tracking-d2: 0.05em;
+
+    /* H1 ~ H6（TW/Headings）*/
+    --text-h1: 40px; --leading-h1: 1.2; --tracking-h1: 0.05em;
+    --text-h2: 32px; --leading-h2: 1.2; --tracking-h2: 0.05em;
+    --text-h3: 28px; --leading-h3: 1.2; --tracking-h3: 0.05em;
+    --text-h4: 24px; --leading-h4: 1.2; --tracking-h4: 0.05em;
+    --text-h5: 20px; --leading-h5: 1.2; --tracking-h5: 0.05em;
+    --text-h6: 16px; --leading-h6: 1.2; --tracking-h6: 0.05em;
+
+    /* ------------ Label ------------ */
+    /* 這組行高都是 150% */
+    --text-label-lg: 20px; --leading-label-lg: 1.5; --tracking-label-lg: 0.05em;
+    --text-label-md: 16px; --leading-label-md: 1.5; --tracking-label-md: 0.05em;
+    --text-label-sm: 14px; --leading-label-sm: 1.5; --tracking-label-sm: 0.05em;
+    --text-label-xs: 12px; --leading-label-xs: 1.5; --tracking-label-xs: 0.05em;
+
+    /* ------------ Paragraph ------------ */
+    --text-p-lg: 20px; --leading-p-lg: 1.5; --tracking-p-lg: 0.05em;
+    --text-p-md: 16px; --leading-p-md: 1.5; --tracking-p-md: 0.05em;
+    --text-p-sm: 14px; --leading-p-sm: 1.5; --tracking-p-sm: 0.05em;
+    --text-p-xs: 12px; --leading-p-xs: 1.5; --tracking-p-xs: 0.05em;
+
+    /* ------------ Weights（方便叫用） ------------ */
+    --font-weight-regular: 400;
+    --font-weight-medium: 500;
+    --font-weight-bold: 700;
+    /* border radius */
+    --radius-xs: 4px;
+
+}

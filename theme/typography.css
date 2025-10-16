@@ -1,0 +1,79 @@
+
+
+@layer utilities {
+  /* === Headings === */
+  .text-h1 {
+    font-size: var(--text-h1);
+    line-height: calc(var(--leading-h1) * 1em);
+    letter-spacing: var(--tracking-h1);
+  }
+  .text-h2 {
+    font-size: var(--text-h2);
+    line-height: calc(var(--leading-h2) * 1em);
+    letter-spacing: var(--tracking-h2);
+  }
+  .text-h3 {
+    font-size: var(--text-h3);
+    line-height: calc(var(--leading-h3) * 1em);
+    letter-spacing: var(--tracking-h3);
+  }
+  .text-h4 {
+    font-size: var(--text-h4);
+    line-height: calc(var(--leading-h4) * 1em);
+    letter-spacing: var(--tracking-h4);
+  }
+  .text-h5 {
+    font-size: var(--text-h5);
+    line-height: calc(var(--leading-h5) * 1em);
+    letter-spacing: var(--tracking-h5);
+  }
+  .text-h6 {
+    font-size: var(--text-h6);
+    line-height: calc(var(--leading-h6) * 1em);
+    letter-spacing: var(--tracking-h6);
+  }
+
+  /* === Labels === */
+  .text-label-lg {
+    font-size: var(--text-label-lg);
+    line-height: calc(var(--leading-label-lg) * 1em);
+    letter-spacing: var(--tracking-label-lg);
+  }
+  .text-label-md {
+    font-size: var(--text-label-md);
+    line-height: calc(var(--leading-label-md) * 1em);
+    letter-spacing: var(--tracking-label-md);
+  }
+  .text-label-sm {
+    font-size: var(--text-label-sm);
+    line-height: calc(var(--leading-label-sm) * 1em);
+    letter-spacing: var(--tracking-label-sm);
+  }
+  .text-label-xs {
+    font-size: var(--text-label-xs);
+    line-height: calc(var(--leading-label-xs) * 1em);
+    letter-spacing: var(--tracking-label-xs);
+  }
+
+  /* === Paragraphs === */
+  .text-p-lg {
+    font-size: var(--text-p-lg);
+    line-height: calc(var(--leading-p-lg) * 1em);
+    letter-spacing: var(--tracking-p-lg);
+  }
+  .text-p-md {
+    font-size: var(--text-p-md);
+    line-height: calc(var(--leading-p-md) * 1em);
+    letter-spacing: var(--tracking-p-md);
+  }
+  .text-p-sm {
+    font-size: var(--text-p-sm);
+    line-height: calc(var(--leading-p-sm) * 1em);
+    letter-spacing: var(--tracking-p-sm);
+  }
+  .text-p-xs {
+    font-size: var(--text-p-xs);
+    line-height: calc(var(--leading-p-xs) * 1em);
+    letter-spacing: var(--tracking-p-xs);
+  }
+}
